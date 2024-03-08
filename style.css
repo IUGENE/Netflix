@@ -1,0 +1,390 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  width: 148px;
+  height: 40px;
+}
+.logo__img {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  background-image: url(resources/netflix-bg.jpg);
+  height: 90vh;
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  position: relative;
+  background-size: max(1400px, 100vw);
+}
+.main .box {
+  height: 85vh;
+  width: 100%;
+  opacity: 0.44;
+  position: relative;
+  top: 0;
+  background-color: black;
+}
+nav {
+  display: flex;
+}
+.hero {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  position: absolute;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  top: -70px;
+  right: 20px;
+  margin: 23px;
+  padding: 23px;
+  line-height: 50px;
+}
+.hero > :nth-child(1) {
+  font-size: larger;
+  font-weight: bolder;
+}
+.hero > :nth-child(2) {
+  font-size: 24px;
+  font-weight: 900;
+}
+.hero > :nth-child(3) {
+  font-size: 20px;
+  font-weight: 900;
+}
+.hero__input {
+  position: absolute;
+  top: 400px;
+  left: 30px;
+}
+
+.second__page {
+  padding: 34px;
+  background-color: black;
+  color: white;
+}
+.tv__image {
+  width: 300px;
+  height: 200px;
+}
+.video1 {
+  position: absolute;
+  bottom: -312px;
+  right: 53px;
+  width: 250px;
+  height: 109px;
+}
+
+.third__page__image {
+  width: 100vw;
+  height: 40vh;
+}
+.mobile__image {
+  width: 100%;
+  height: 100%;
+}
+.third__page__text {
+  margin-top: auto;
+  padding: 23px;
+  background-color: black;
+  color: white;
+}
+.third__page__text h1 {
+  margin-top: 50px;
+  margin-left: 20px;
+}
+.third__page__text h4 {
+  margin-left: 20px;
+}
+.fourth__page__image {
+  background-color: black;
+}
+.tv__image2 {
+  margin-left: 30px;
+  width: 300px;
+  height: 200px;
+  z-index: -10;
+  background-color: black;
+}
+.video2 {
+  position: absolute;
+  width: 250px;
+  height: 109px;
+  top: 1600px;
+  right: 65px;
+}
+.fourth__page__text {
+  margin-top: auto;
+  padding: 23px;
+  background-color: black;
+  color: white;
+}
+.children__image {
+  width: 100vw;
+  height: 40vh;
+}
+.fifth__page__text {
+  color: white;
+  margin: 10px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.fifth__page {
+  background-color: black;
+}
+.sixth__page
+{
+  background-color: black;
+}
+.sixth__page__head
+{
+  margin-top: -20px;
+  color: white;
+  padding-bottom: 30px;
+}
+.first__question button{
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 350px; 
+}
+.second__question button
+{
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+.third__question button
+{
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+.fourth__question button
+{ 
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+.fifth__question button
+{
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+.sixth__question button
+{
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+.first__question div{
+  background-color: rgb(125, 134, 144);
+  font-size:20px;
+  color: white;
+}
+.second__question div{
+  background-color: rgb(125, 134, 144);
+  font-size:20px;
+  color: white;
+}
+.third__question div{
+  background-color: rgb(125, 134, 144);
+  font-size:20px;
+  color: white;
+}
+.fourth__question div{
+  background-color: rgb(125, 134, 144);
+  font-size:20px;
+  color: white;
+}
+.fifth__question div{
+  background-color:rgb(125, 134, 144);
+  font-size:20px;
+  color: white;
+}
+.sixth__question div{
+  background-color: rgb(125, 134, 144);
+  font-size:20px;
+  color: white;
+}
+
+@media (min-width: 1024px) {
+  .logo {
+    margin-right: 900px;
+    margin-left: 100px;
+  }
+  .hero__input {
+    position: absolute;
+    top: 400px;
+    left: 690px;
+  }
+  .hero {
+    top: -30px;
+    right: 300px;
+  }
+  .second__page {
+    display: flex;
+    justify-content: space-between;
+  }
+  .tv__image {
+    width: 640px;
+    height: 480px;
+    z-index: 3;
+  }
+  .video1 {
+    position: absolute;
+    bottom: -370px;
+    right: 140px;
+    width: 449px;
+    height: 350px;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .second__page__text {
+    padding: 70px;
+    margin-top: 133px;
+  }
+  .hero__input {
+    position: absolute;
+    top: 400px;
+    left: 650px;
+  }
+  .third__page {
+    display: flex;
+  }
+  .third__page__image {
+    width: 500px;
+    height: 350px;
+  }
+  .third__page__text {
+    margin-top: -10px;
+  }
+  .third__page__text h1 {
+    margin-top: 100px;
+  }
+  .third__page__text h4 {
+    padding-right: 70px;
+  }
+  .video2 {
+    width: 449px;
+    height: 350px;
+    position: absolute;
+    top: 1510px;
+    right: 110px;
+    z-index: 3;
+  }
+  .tv__image2 {
+    width: 640px;
+    height: 480px;
+  }
+  .fourth__page {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    background-color: black;
+  }
+  .fourth__page__text {
+    margin-top: 150px;
+    padding: 53px;
+  }
+  .fifth__page
+  {
+    display: flex;
+    justify-content: space-between;
+  }
+  .children__image
+  {
+    width: 600px;
+    height: 450px;
+  }
+  .fifth__page__text
+  {
+    margin-top: 150px;
+    padding: 53px;
+  }
+  .sixth__page__head
+  {
+    text-align: center;
+  }
+  .first__question button
+  {
+    margin-left: 200px;
+    width: 1000px;
+  }
+  .second__question button
+  {
+    margin-left: 200px;
+    width: 1000px;
+  }
+  .third__question button
+  {
+    margin-left: 200px; 
+    width: 1000px;
+  }
+  .fourth__question button
+  {
+    margin-left: 200px; 
+    width: 1000px;
+  }
+  .fifth__question button
+  {
+    margin-left: 200px;
+    width: 1000px;  
+  }
+  .sixth__question button
+  {
+    margin-left: 200px;
+    width: 1000px;
+  }
+  .first__question div
+  {
+    margin-left: 130px;
+    border-radius:50% ;
+    width: 1000px;
+  }
+  .second__question div
+  {
+    margin-left: 130px;
+    border-radius:50% ;
+    width: 1000px;
+  }
+  .third__question div
+  {
+    margin-left: 130px;
+    border-radius:50% ;
+    width: 1000px;
+  }
+  .fourth__question div
+  {
+    margin-left: 130px;
+    border-radius:50% ;
+    width: 1000px;
+  }
+  .fifth__question div
+  {
+    margin-left: 130px;
+    border-radius:50% ;
+    width: 1000px;
+  }
+  .sixth__question div
+  {
+    margin-left: 130px;
+    border-radius:50% ;
+    width: 1000px;
+  }
+
+}
