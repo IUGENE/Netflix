@@ -2,8 +2,10 @@
   margin: 0;
   padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 .logo {
-  width: 148px;
+  width: 130px;
   height: 40px;
 }
 .logo__img {
@@ -28,17 +30,19 @@
   background-color: black;
 }
 nav {
-  display: flex;
+  display: flex ;
+  gap: 10px;
 }
 .hero {
   height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
   flex-direction: column;
   color: white;
   position: absolute;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Poppins', sans-serif;
   top: -70px;
   right: 20px;
   margin: 23px;
@@ -48,22 +52,25 @@ nav {
 .hero > :nth-child(1) {
   font-size: larger;
   font-weight: bolder;
+  margin-bottom: 10px;
 }
 .hero > :nth-child(2) {
   font-size: 24px;
   font-weight: 900;
+  margin-bottom: 10px;
 }
 .hero > :nth-child(3) {
   font-size: 20px;
   font-weight: 900;
+  margin-bottom: 10px;
 }
 .hero__input {
   position: absolute;
-  top: 400px;
+  top: 500px;
   left: 30px;
+  background-color: rgb(23,23,23,0.2);
 }
-.login__buton
-{
+.login__buton {
   text-align: center;
 }
 .second__page {
@@ -74,6 +81,8 @@ nav {
 .tv__image {
   width: 300px;
   height: 200px;
+  position: relative;
+  z-index: 10;
 }
 .video1 {
   position: absolute;
@@ -111,15 +120,15 @@ nav {
   margin-left: 30px;
   width: 300px;
   height: 200px;
-  z-index: -10;
-  background-color: black;
+  position: relative;
+  z-index: 10;
 }
 .video2 {
   position: absolute;
-  width: 250px;
-  height: 109px;
+  width: 160px;
+  height: 120px;
   top: 1600px;
-  right: 65px;
+  right: 95px;
 }
 .fourth__page__text {
   margin-top: auto;
@@ -140,116 +149,114 @@ nav {
 .fifth__page {
   background-color: black;
 }
-.sixth__page
-{
+.sixth__page {
   background-color: black;
 }
-.sixth__page__head
-{
+.sixth__page__head {
   margin-top: -20px;
   color: white;
   padding-bottom: 30px;
 }
-.first__question button{
-  padding: 10px 20px;
-  font-size: 20px;
-  border-radius: 10px;
-  width: 350px; 
-}
-.second__question button
-{
+.first__question button {
   padding: 10px 20px;
   font-size: 20px;
   border-radius: 10px;
   width: 350px;
 }
-.third__question button
-{
+.second__question button {
   padding: 10px 20px;
   font-size: 20px;
   border-radius: 10px;
   width: 350px;
 }
-.fourth__question button
-{ 
+.third__question button {
   padding: 10px 20px;
   font-size: 20px;
   border-radius: 10px;
   width: 350px;
 }
-.fifth__question button
-{
+.fourth__question button {
   padding: 10px 20px;
   font-size: 20px;
   border-radius: 10px;
   width: 350px;
 }
-.sixth__question button
-{
+.fifth__question button {
   padding: 10px 20px;
   font-size: 20px;
   border-radius: 10px;
   width: 350px;
 }
-.first__question div{
-  background-color: rgb(125, 134, 144);
-  font-size:20px;
+.sixth__question button {
+  padding: 10px 20px;
+  font-size: 20px;
+  border-radius: 10px;
+  width: 350px;
+}
+.first__question div {
+  background-color: black;
+  font-size: 20px;
   color: white;
 }
-.second__question div{
-  background-color: rgb(125, 134, 144);
-  font-size:20px;
+.second__question div {
+  background-color: black;
+  font-size: 20px;
   color: white;
 }
-.third__question div{
-  background-color: rgb(125, 134, 144);
-  font-size:20px;
+.third__question div {
+  background-color: black;
+  font-size: 20px;
   color: white;
 }
-.fourth__question div{
-  background-color: rgb(125, 134, 144);
-  font-size:20px;
+.fourth__question div {
+  background-color:black;
+  font-size: 20px;
   color: white;
 }
-.fifth__question div{
-  background-color:rgb(125, 134, 144);
-  font-size:20px;
+.fifth__question div {
+  background-color: black;
+  font-size: 20px;
   color: white;
 }
-.sixth__question div{
-  background-color: rgb(125, 134, 144);
-  font-size:20px;
+.sixth__question div {
+  background-color: black;
+  font-size: 20px;
   color: white;
 }
-.sixth__page__footer{
+.sixth__page__footer {
   color: white;
   padding-top: 30px;
   padding: 10px;
   font-size: small;
 }
-.sixth__page__form
-{
+.sixth__page__form {
   text-align: center;
   padding: 10px;
 }
-.footer__section
+.sixth__page__form input
 {
+  background-color: rgba(23,23,23,0.2);
+  color: white;
+}
+.hero__input input
+{
+  background-color: rgba(23,23,23,0.2);
+  color: white;
+}
+.footer__section {
   background-color: black;
   color: white;
 }
-.footer__text__1
-{
-  padding: 20px ;
+.footer__text__1 {
+  padding: 20px;
 }
-.footer__text__1 a
-{
+.footer__text__1 a {
   color: white;
   text-decoration: none;
 }
 
-.footer__text__1 a
-a:visited {
-  color:white;
+.footer__text__1 a a:visited {
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
@@ -265,24 +272,20 @@ a:active {
   background-color: transparent;
   text-decoration: underline;
 }
-.footer__text__2 
-{
+.footer__text__2 {
   display: flex;
   text-decoration: none;
 }
-.footer__text__2 ul
-{
+.footer__text__2 ul {
   list-style: none;
 }
-.footer__text__2 a
-{
+.footer__text__2 a {
   list-style: none;
   text-decoration: none;
   color: white;
 }
-.footer__text__2 a
-a:visited {
-  color:white;
+.footer__text__2 a a:visited {
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
@@ -299,25 +302,20 @@ a:active {
   text-decoration: none;
 }
 
-
-.footer__text__3
-{
+.footer__text__3 {
   display: flex;
   text-decoration: none;
 }
-.footer__text__3 ul
-{
+.footer__text__3 ul {
   list-style: none;
 }
-.footer__text__3 a
-{
+.footer__text__3 a {
   list-style: none;
   text-decoration: none;
   color: white;
 }
-.footer__text__3 a
-a:visited {
-  color:white;
+.footer__text__3 a a:visited {
+  color: white;
   background-color: transparent;
   text-decoration: none;
 }
@@ -333,8 +331,6 @@ a:active {
   background-color: transparent;
   text-decoration: none;
 }
-
-
 
 @media (min-width: 1024px) {
   .logo {
@@ -369,7 +365,8 @@ a:active {
   nav {
     display: flex;
     justify-content: center;
-    gap: 20px;
+    text-align: center;
+    align-items: center;
   }
   .second__page__text {
     padding: 70px;
@@ -397,7 +394,7 @@ a:active {
     padding-right: 70px;
   }
   .video2 {
-    width: 449px;
+    width: 420px;
     height: 350px;
     position: absolute;
     top: 1510px;
@@ -418,112 +415,92 @@ a:active {
     margin-top: 150px;
     padding: 53px;
   }
-  .fifth__page
-  {
+  .fifth__page {
     display: flex;
     justify-content: space-between;
   }
-  .children__image
-  {
+  .children__image {
     width: 600px;
     height: 450px;
   }
-  .fifth__page__text
-  {
+  .fifth__page__text {
     margin-top: 150px;
     padding: 53px;
   }
-  .sixth__page__head
-  {
+  .sixth__page__head {
     text-align: center;
   }
-  .first__question button
-  {
+  .first__question button {
     margin-left: 200px;
     width: 1000px;
   }
-  .second__question button
-  {
+  .second__question button {
     margin-left: 200px;
     width: 1000px;
   }
-  .third__question button
-  {
-    margin-left: 200px; 
-    width: 1000px;
-  }
-  .fourth__question button
-  {
-    margin-left: 200px; 
-    width: 1000px;
-  }
-  .fifth__question button
-  {
-    margin-left: 200px;
-    width: 1000px;  
-  }
-  .sixth__question button
-  {
+  .third__question button {
     margin-left: 200px;
     width: 1000px;
   }
-  .first__question div
-  {
-    margin-left: 130px;
-    border-radius:50% ;
+  .fourth__question button {
+    margin-left: 200px;
     width: 1000px;
   }
-  .second__question div
-  {
-    margin-left: 130px;
-    border-radius:50% ;
+  .fifth__question button {
+    margin-left: 200px;
     width: 1000px;
   }
-  .third__question div
-  {
-    margin-left: 130px;
-    border-radius:50% ;
+  .sixth__question button {
+    margin-left: 200px;
     width: 1000px;
   }
-  .fourth__question div
-  {
+  .first__question div {
     margin-left: 130px;
-    border-radius:50% ;
+    border-radius: 50%;
     width: 1000px;
   }
-  .fifth__question div
-  {
+  .second__question div {
     margin-left: 130px;
-    border-radius:50% ;
+    border-radius: 50%;
     width: 1000px;
   }
-  .sixth__question div
-  {
+  .third__question div {
     margin-left: 130px;
-    border-radius:50% ;
+    border-radius: 50%;
     width: 1000px;
   }
-  .sixth__page__footer
-  {
+  .fourth__question div {
+    margin-left: 130px;
+    border-radius: 50%;
+    width: 1000px;
+  }
+  .fifth__question div {
+    margin-left: 130px;
+    border-radius: 50%;
+    width: 1000px;
+  }
+  .sixth__question div {
+    margin-left: 130px;
+    border-radius: 50%;
+    width: 1000px;
+  }
+  .sixth__page__footer {
     padding-top: 20px;
     text-align: center;
   }
-  input{
+  input {
     width: 350px;
     height: 30px;
   }
-.footer__section
-{
-  padding-top: 40px;
-  display: flex;
-  gap: 100px;
-}
-.footer__text__2
-{
-  gap: 100px;
-}
-.footer__text__3
-{
-  gap: 100px;
-}
+  .footer__section {
+    padding-top: 40px;
+    display: flex;
+    gap: 100px;
+  }
+  .footer__text__2 {
+    gap: 100px;
+  }
+  .footer__text__3 {
+    gap: 100px;
+  }
 }
