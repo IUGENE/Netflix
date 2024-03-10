@@ -62,7 +62,10 @@ nav {
   top: 400px;
   left: 30px;
 }
-
+.login__buton
+{
+  text-align: center;
+}
 .second__page {
   padding: 34px;
   background-color: black;
@@ -218,6 +221,120 @@ nav {
   font-size:20px;
   color: white;
 }
+.sixth__page__footer{
+  color: white;
+  padding-top: 30px;
+  padding: 10px;
+  font-size: small;
+}
+.sixth__page__form
+{
+  text-align: center;
+  padding: 10px;
+}
+.footer__section
+{
+  background-color: black;
+  color: white;
+}
+.footer__text__1
+{
+  padding: 20px ;
+}
+.footer__text__1 a
+{
+  color: white;
+  text-decoration: none;
+}
+
+.footer__text__1 a
+a:visited {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+.footer__text__2 
+{
+  display: flex;
+  text-decoration: none;
+}
+.footer__text__2 ul
+{
+  list-style: none;
+}
+.footer__text__2 a
+{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.footer__text__2 a
+a:visited {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+.footer__text__3
+{
+  display: flex;
+  text-decoration: none;
+}
+.footer__text__3 ul
+{
+  list-style: none;
+}
+.footer__text__3 a
+{
+  list-style: none;
+  text-decoration: none;
+  color: white;
+}
+.footer__text__3 a
+a:visited {
+  color:white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
 
 @media (min-width: 1024px) {
   .logo {
@@ -386,5 +503,27 @@ nav {
     border-radius:50% ;
     width: 1000px;
   }
-
+  .sixth__page__footer
+  {
+    padding-top: 20px;
+    text-align: center;
+  }
+  input{
+    width: 350px;
+    height: 30px;
+  }
+.footer__section
+{
+  padding-top: 40px;
+  display: flex;
+  gap: 100px;
+}
+.footer__text__2
+{
+  gap: 100px;
+}
+.footer__text__3
+{
+  gap: 100px;
+}
 }
